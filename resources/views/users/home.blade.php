@@ -32,7 +32,7 @@
         
                                             <!--Find job btn-->
                                             <div class="form-group col-xl-4 col-lg-4 col-md-4">
-                                                <button type="submit" class="site-button">Find Job</button>
+                                                <button type="submit" class="site-button">Find a Job</button>
                                             </div>
         
                                         </div>

@@ -143,20 +143,33 @@ $message = '
     
 	
    
-       public function item_details(Request $input)
-    { 
+    //    public function item_details(Request $input)
+    // { 
 	
-	   $values  =  array();
+	//    $values  =  array();
 	   
 	
-	   $values['job_info'] = jobs_list::where('title','=',$input->title)->first();
+	//    $values['job_info'] = jobs_list::where('title','=',$input->title)->first();
 	
 	
-        return view('users.post_details',['values'=>$values]);
+    //     return view('users.post_details',['values'=>$values]);
 	
 	
       
-    }
+    // }
+
+	public function item_details(Request $input)
+{ 
+    $values = [];
+
+    $jobs = jobs_list::where('title', $input->title)->get();
+
+    $job_info = $jobs->firstWhere('id', $input->id);
+
+    $values['job_info'] = $job_info;
+
+    return view('users.post_details', ['values' => $values]);
+}
 	
 	 public function clients(Request $input)
     { 

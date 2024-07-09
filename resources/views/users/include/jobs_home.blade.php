@@ -30,7 +30,7 @@
                                        
                                         
                                         <div class="twm-mid-content">
-                                            <a href="item?title=<?php echo urlencode($r_data->title); ?>" class="twm-job-title">
+                                            <a href="item?title=<?php echo urlencode($r_data->title); ?>&id=<?php echo urlencode($r_data->id); ?>" class="twm-job-title">
                                                 <h4 style="">{{ $r_data->title}}</h4>
                                             </a>
 											<hr>
