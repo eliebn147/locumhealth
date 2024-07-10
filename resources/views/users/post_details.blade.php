@@ -12,7 +12,7 @@
                     <div class="wt-bnr-inr-entry">
                         <div class="banner-title-outer">
                             <div class="banner-title-name">
-                                <h2 class="wt-title"><?php echo $_GET['title'];?></h2>
+                                <h2 class="wt-title">{{ $values['job_info']->title; }}</h2>
                             </div>
                         </div>
                         <!-- BREADCRUMB ROW -->                            

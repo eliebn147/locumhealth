@@ -162,9 +162,7 @@ $message = '
 { 
     $values = [];
 
-    $jobs = jobs_list::where('title', $input->title)->get();
-
-    $job_info = $jobs->firstWhere('id', $input->id);
+    $job_info = jobs_list::where('id', $input->id)->first();
 
     $values['job_info'] = $job_info;
 
