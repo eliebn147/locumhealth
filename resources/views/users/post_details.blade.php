@@ -319,8 +319,7 @@
                                                 <div class="form-group mb-3">
                                                     <div class=" form-check">
                                                         <input type="checkbox" class="form-check-input" id="agree1">
-                                                        <label class="form-check-label" for="agree1">I agree to the Terms and conditions</label>
-                                                        
+                                                        <a class="form-check-label" href="{{ asset('files/Locum-Health-Terms-and-Conditions.pdf') }}" target="_blank">I agree to the Terms and conditions</a>
                                                     </div>
                                                 </div>
                                             </div>
