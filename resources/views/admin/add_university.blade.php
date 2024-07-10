@@ -126,7 +126,7 @@
 													<label for="emailInput" class="form-label">.</label>
                                                         <div class="hstack gap-2 ">
 														
-                                                            <button type="submit" class="btn btn-primary">Sabmit</button>
+                                                            <button type="submit" class="btn btn-primary">Submit</button>
                                                           
                                                         </div>
                                                     </div>

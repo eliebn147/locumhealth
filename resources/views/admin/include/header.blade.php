@@ -147,7 +147,7 @@
                         <div class="d-flex">
                             <!-- LOGO -->
                             <div class="navbar-brand-box horizontal-logo">
-                                <a href="home" class="logo logo-dark">
+                                <a href="applications" class="logo logo-dark">
                                     <span class="logo-sm">
                                         <img src="assets/images/logo.gif" alt="" height="52">
                                     </span>
@@ -156,7 +156,7 @@
                                     </span>
                                 </a>
 
-                                <a href="home" class="logo logo-light">
+                                <a href="applications" class="logo logo-light">
                                     <span class="logo-sm">
                                         <img src="assets/images/logo.gif" alt="" height="52">
                                     </span>
