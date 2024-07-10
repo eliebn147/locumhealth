@@ -96,10 +96,9 @@
                                                 </div>
                                             </div>
             
-                                            <div class="col-lg-12">
-                                                <div class="form-group mb-3">
-                                                    <input name="cv_file" type="file" class="form-control" >
-                                                </div>
+                                            <div class="col-lg-12" style="margin-bottom: 16px">
+                                                <input type="file" name="cv_file" id="cv_input" style="display:none;" class="form-control" required=""/>
+                                                <label for="cv_input" style="background:#f0f6fe;font-size:14px;width:100%;padding:15px; border-radius:10px;"><img src="upload/upload.png" width="24" style="margin-right:15px;" />  <span id="file_lable">Click to select cv </span></label>
                                             </div>
                                             
 											 <div class="col-lg-12">
