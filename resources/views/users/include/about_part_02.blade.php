@@ -10,7 +10,7 @@
                             <div class="col-lg-4 col-md-12">
                                 <div class="twm-explore-media-wrap">
                                     <div class="twm-media">
-                                        <img src="images/gir-large.png" alt="">
+                                        <img src="images/candidates.png" alt="">
                                     </div>
                                 </div>
                             </div>

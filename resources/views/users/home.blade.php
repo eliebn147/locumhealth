@@ -49,7 +49,7 @@
                         <div class="col-xl-5 col-lg-12 col-md-12 twm-bnr-right-section">
                             <div class="twm-bnr-right-content">
                                 <div class="bnr-media">
-                                    <img src="images/home-9/banner-bg/right-pic1.png" alt="#">
+                                    <img src="images/home-9/banner-bg/homepage.png" alt="#">
                                 </div>
                                 <div class="slider-thumb-wrap">
                                     <div class="slider-thumb"></div>
