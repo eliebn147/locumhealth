@@ -21,7 +21,7 @@ class webPagesController extends Controller
 		    $message  =  $input->message ;
 		
 	  
-		$email_to = "info@locumhealthuk.com";
+		$email_to = "applications@locumhealthuk.com";
 $email_from = 'noreply@locumhealthuk.com'; //website email address
 $webiste_name = 'Locumhealthuk';
 $subject =  "Refer a friend";
@@ -58,7 +58,7 @@ $message = '
            }   
 		$recd->save();
 		
-		$email_to = "info@locumhealthuk.com";
+		$email_to = "applications@locumhealthuk.com";
 $email_from = 'noreply@locumhealthuk.com'; //website email address
 $webiste_name = 'Locumhealthuk';
 $subject =  "New Job Application submitted";
@@ -93,7 +93,7 @@ $message = '
            }   
 		$recd->save();
 		
-		$email_to = "info@locumhealthuk.com";
+		$email_to = "applications@locumhealthuk.com";
 $email_from = 'noreply@locumhealthuk.com'; //website email address
 $webiste_name = 'Locumhealthuk';
 $subject =  "New CV Uploaded";
@@ -125,7 +125,7 @@ $message = '
 	    
 		$recd->save();
 		
-		$email_to = "info@locumhealthuk.com";
+		$email_to = "applications@locumhealthuk.com";
 $email_from = 'noreply@locumhealthuk.com'; //website email address
 $webiste_name = 'Locumhealthuk';
 $subject =  "New Vacancy Uploaded";
@@ -214,7 +214,7 @@ $message = '
 	
 	 public function send_mail(Request $input)
     { 
-$email_to = "info@locumhealthuk.com"; 
+$email_to = "applications@locumhealthuk.com"; 
 $email_from = 'noreply@locumhealth.co.uk'; //website email address
 $webiste_name = 'locumhealth.co.uk';
 $subject =  $input->subject;

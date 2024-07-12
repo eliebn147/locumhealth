@@ -6,5 +6,5 @@ $msg = "First line of text\nSecond line of text";
 $msg = wordwrap($msg,70);
 
 // send email
-mail("info@locumhealthuk.com","My subject",$msg);
+mail("applications@locumhealthuk.com","My subject",$msg);
 ?>
