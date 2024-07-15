@@ -304,15 +304,15 @@
                                             </div>
             
                                             <div class="col-lg-12" style="margin-bottom: 16px">
-                                                <input type="file" name="cv_file" id="cv_input" style="display:none;" class="form-control" required=""/>
-                                                <label for="cv_input" style="background:#f0f6fe;font-size:14px;width:100%;padding:15px; border-radius:10px;"><img src="upload/upload.png" width="24" style="margin-right:15px;" />  <span id="file_lable">Click to select cv </span></label>
+                                                <input type="file" name="cv_file" id="cv_input2" style="display:none;" class="form-control" required=""/>
+                                                <label for="cv_input2" style="background:#f0f6fe;font-size:14px;width:100%;padding:15px; border-radius:10px;"><img src="upload/upload.png" width="24" style="margin-right:15px;" />  <span id="file_label3">Click to select cv </span></label>
                                                 <script>
-                                                    document.getElementById('cv_input').onchange = function () {
+                                                    document.getElementById('cv_input2').onchange = function () {
                                                         var files = event.target.files
       var filename = files[0].name
       var extension = files[0].type
       
-      document.getElementById('file_lable').innerHTML = filename;
+      document.getElementById('file_label3').innerHTML = filename;
       
       
     
