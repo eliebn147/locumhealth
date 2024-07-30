@@ -8,6 +8,7 @@ use App\Models\cvs;
 use App\Models\jobs_list;
 use App\Models\tb_posts;
 use App\Models\submited_Vacancy;
+use App\Models\dynamicpages;
 
 
 class miscellaneousController extends Controller
@@ -29,6 +30,55 @@ class miscellaneousController extends Controller
         return view('admin.posts',['values'=>$values]);
 
     }
+
+	public function get_pages(Request $input)
+	{
+		// Get all dynamic pages
+		$values = array();
+		$values['records'] = dynamicpages::all();
+	
+		// Return the dynamic pages to the view
+		return view('admin.posts', ['values' => $values]);
+	}
+
+	public function save_page(Request $input)
+	{
+		// Validate the input data
+		$validatedData = $input->validate([
+			'url' => 'required|string|max:255|unique:dynamic_pages,url',
+			'header_content' => 'required|string',
+			'body_content' => 'required|string',
+		]);
+	
+		// Create a new DynamicPage instance and assign the validated data
+		$dynamicPage = new dynamicpages();
+		$dynamicPage->url = $validatedData['url'];
+		$dynamicPage->header_content = $validatedData['header_content'];
+		$dynamicPage->body_content = $validatedData['body_content'];
+	
+		// Save the dynamic page to the database
+		$dynamicPage->save();
+	
+		// Redirect back with a success message
+		return redirect()->back()->with('success', 'Page saved successfully.');
+	}
+	public function delete_page(Request $input)
+	{
+		// Validate the input ID
+		$validatedData = $input->validate([
+			'id' => 'required|integer|exists:dynamic_pages,id',
+		]);
+	
+		// Find the page by ID and delete it
+		$dynamicPage = dynamicpages::find($validatedData['id']);
+	
+		if ($dynamicPage) {
+			$dynamicPage->delete();
+			return redirect()->back()->with('success', 'Page deleted successfully.');
+		} else {
+			return redirect()->back()->with('error', 'Page not found.');
+		}
+	}
 	
 	  public function save_post(Request $input)
     { 

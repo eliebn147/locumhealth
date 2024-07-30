@@ -97,6 +97,14 @@ Route::get('agent-profile', [applicationsController::class, 'agent_profile']);
 Route::get('applicants', [applicationsController::class, 'applicants']);
 Route::get('applications', [applicationsController::class, 'applications']);
 Route::get('home', [dashboardController::class, 'adminhome']);
-Route::get('post', [miscellaneousController::class, 'post']);
+
+// ? this is the old api
+// Route::get('post', [miscellaneousController::class, 'post']);
+Route::get('post', [miscellaneousController::class, 'get_pages']);
+Route::get('delete_page', [miscellaneousController::class, 'delete_page']);
+Route::post('save_page', [miscellaneousController::class, 'save_page']);
+
 Route::POST('save_post', [miscellaneousController::class, 'save_post']);
+
+Route::get('{slug}', [webPagesController::class, 'dynamic_page']);
 
