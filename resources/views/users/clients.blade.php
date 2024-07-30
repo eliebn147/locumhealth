@@ -220,7 +220,8 @@
                                             </p>
                                         </div>
                                         <div class="twm-upload-file">
-                                            <a data-bs-toggle="modal" href="#Submit_Vacancy" role="button" class="site-button">Submit a Vacancy  <i class="feather-upload"></i></a>  
+                                            <a data-bs-toggle="modal" href="#Submit_Vacancy" role="button" class="site-button">Submit a Vacancy  <i class="feather-upload"></i></a>
+                                            <a href="{{ asset('files/Locum-Health-Terms-and-Conditions.pdf') }}" target="_blank" role="button" class="site-button" style="margin-left: 4px">Terms & Conditions</a>  
                                       
                                         </div>
 
