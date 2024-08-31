@@ -338,7 +338,7 @@ class webPagesController extends Controller
 		$slug = $input->slug;
 
 		$dynamicPage = dynamicpages::where('url', '=', $slug)
-			->select('url', 'header_content', 'body_content')
+			->select('url', 'header_content', 'body_content', 'head_tags')
 			->first();
 
 		$values = array();

@@ -48,6 +48,7 @@ class miscellaneousController extends Controller
 			'url' => 'required|string|max:255|unique:dynamic_pages,url',
 			'header_content' => 'required|string',
 			'body_content' => 'required|string',
+			'head_tags' => 'required|string',
 		]);
 	
 		// Create a new DynamicPage instance and assign the validated data
@@ -55,6 +56,7 @@ class miscellaneousController extends Controller
 		$dynamicPage->url = $validatedData['url'];
 		$dynamicPage->header_content = $validatedData['header_content'];
 		$dynamicPage->body_content = $validatedData['body_content'];
+		$dynamicPage->head_tags = $validatedData['head_tags'];
 	
 		// Save the dynamic page to the database
 		$dynamicPage->save();

@@ -237,6 +237,12 @@
                                             <!-- Header Content Textarea -->
                                             <div class="col-lg-12">
                                                 <div class="mb-3">
+                                                    <label for="headTags" class="form-label">Head Tags</label>
+                                                    <textarea class="form-control" id="headTags" name="head_tags" rows="4"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
                                                     <label for="headerContent" class="form-label">Header Content</label>
                                                     <textarea class="form-control" id="headerContent" name="header_content" rows="4"></textarea>
                                                 </div>
@@ -276,6 +282,7 @@
                                                                 <tr>
                                                                     <th>id</th>
                                                                     <th>Url</th>
+                                                                    <th>Head Tags</th>
                                                                     <th>Header Content</th>
                                                                     <th>Body Content</th>
                                                                     <th>Action</th>
@@ -286,6 +293,7 @@
                                                                     <tr>
                                                                         <td>{{ $r_data->id }}</td>
                                                                         <td>{{ $r_data->url }}</td>
+                                                                        <td>{{ $r_data->head_tags }}</td>
                                                                         <td>{{ $r_data->header_content }}</td>
                                                                         <td>{{ $r_data->body_content }}</td>
                                                                         <td>

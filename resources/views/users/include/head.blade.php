@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Medical Locum Jobs Agency, London &amp; UK | Locum Work Doctors | Locum Health</title>
+    <meta name="keywords"
+        content="locum agencies, locum agency, locum doctor, locum jobs, locum work, locum work doctors, medical locum agency" />
+    <meta name="description"
+        content="Locum Health UK is a leading renowned locum medical jobs recruitment agency in UK specializing in primary care. We offer the best locum jobs and same day payments. Register Now!" />
 
     <!-- META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
     <meta name="author" content="" />
-    <meta name="robots" content="" />    
-    <meta name="description" content="" />
-    
+    <meta name="robots" content="" />
+
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="BjPxPtJqG4-yydmxzDT8jt1VKk4cEDFSdcMOaihHm_E" />
 
@@ -17,7 +21,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-22BCWB35VR"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
         gtag('config', 'G-22BCWB35VR');
     </script>
@@ -81,10 +88,7 @@
     <!-- FAVICONS ICON -->
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
-    
-    <!-- PAGE TITLE HERE -->
-    <title>Medical Locum Jobs Agency, London &amp; UK | Locum Work Doctors | Locum Health</title>
-    
+
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
