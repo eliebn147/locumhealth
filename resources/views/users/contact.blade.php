@@ -101,7 +101,7 @@
                                                     <div class="c-info-column">
                                                         <div class="c-info-icon"><i class=" fas fa-map-marker-alt"></i></div>
                                                         <h3 class="twm-title">Address</h3>
-                                                        <p>Address: 152-160 City Road, Kemp House, EC1V 2NX.</p>
+                                                        <p>Address: 352-356 Battersea park road, London, SW11 3BY.</p>
                                                     </div>  
 
                                                     <div class="c-info-column">

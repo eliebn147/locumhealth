@@ -40,9 +40,9 @@
         "telephone": "02039315313",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "152-160 City Road, Kemp House",
+            "streetAddress": "352-356 Battersea park road",
             "addressLocality": "London",
-            "postalCode": "EC1V 2NX",
+            "postalCode": "SW11 3BY",
             "addressCountry": "GB"
         },
         "sameAs": [

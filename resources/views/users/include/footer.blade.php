@@ -11,7 +11,7 @@
                            <h3 class="widget-title">Contact us</h3>
                            <ul class="ftr-list">
                                <li>
-                                   <p><span>Address :</span> 152-160 City Road, Kemp House, EC1V 2NX</p>
+                                   <p><span>Address :</span> 352-356 Battersea park road, London, SW11 3BY.</p>
                                </li>
                                <li>
                                    <p><span>Email :</span>info@locumhealth.co.uk</p>
